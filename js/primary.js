@@ -139,7 +139,7 @@ document.querySelector(".save-button").addEventListener("click", function () {
     }
     else if (parseInt(balance().innerText) < savingBalanceValue) {
         savingAlert().style.display = "block";
-        savingAlert().innerText = "Your balance is insufficient";
+        savingAlert().innerText = "Your balance is insufficient for Saving";
     }
     else {
         savingAlert().style.display = "block";
