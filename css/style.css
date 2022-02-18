@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* header */ 
+
+.header-text{
+    font-weight: 600;
+    color: rgb(55, 92, 194);
+
+}
+.money-icon{
+    height: 40px;
+}
+
+/* main  */
+
+.money-img{
+     width: 100%;
+     height: 100%;
+}
+
+/* calculation */
+.calculate-section{
+    background-color: #f8f8f8;
+   
+    text-align: center;
+}
+.calculate{
+    padding:30px auto;  
+}
+
+/* income */
+.income-title{
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+
+/* expenses */
+.expense-text{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+
+/* calculation  */
+.calculate-btn{
+    padding: 4px 18px;
+    border-radius: 0;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px; 
+}
+
+.balance{
+    margin-top: 28px;
+}
+
+.save-button{
+    padding: 2px 18px;
+}
+
+span{
+    font-size: 1.15em;
+}
+
+#income-warning, #food-warning, #rent-warning, #clothes-warning, #expense-alert, #save-alert{
+    display: none;
+    color: rgba(255, 0, 0, 0.678);
+    font-weight: 500;
+}
+
+@media (max-width: 580px){
+  
+.save-button{
+           margin-top: 10px; 
+}
+.pic-area{
+    padding: 0;
+    margin-bottom: 20px;
+}
+}
