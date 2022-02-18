@@ -45,7 +45,6 @@ function getTotalExpenses() {
     if (typeof (food) == "number" && typeof (rent) == "number" && typeof (clothes) == "number") {
         const totalCost = food + rent + clothes;
         return totalCost;
-
     }
 }
 
@@ -135,12 +134,12 @@ document.querySelector(".save-button").addEventListener("click", function () {
         }
         else {
             savingAlert().style.display = "block";
-            savingAlert().innerText = "Please input number between 0 to 100";
+            savingAlert().innerText = "Please input a number between 0 to 100";
         }
     }
     else if (parseInt(balance().innerText) < savingBalanceValue) {
         savingAlert().style.display = "block";
-        savingAlert().innerText = "Your balance is low";
+        savingAlert().innerText = "Your balance is insufficient";
     }
     else {
         savingAlert().style.display = "block";
